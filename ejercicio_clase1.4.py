@@ -134,10 +134,10 @@ def pregunta_11():
     while True:
         dato = input("Ingrese un número entero (o 'fin'): ").strip()
         if dato.lower() == "fin":
-            break
-        try:
-            numeros.append(int(dato))
-        except ValueError:
+         break
+        if dato.lstrip("-").isdigit():
+         numeros.append(int(dato))
+        else:
             print("Valor no válido. Escriba un número entero o 'fin'.")
 
     pares = sorted([n for n in numeros if n % 2 == 0])
@@ -145,7 +145,6 @@ def pregunta_11():
 
     print("\nPares:", pares, "| Suma:", sum(pares))
     print("Impares:", impares, "| Suma:", sum(impares))
-
 
 def menu_preguntas():
     while True:
