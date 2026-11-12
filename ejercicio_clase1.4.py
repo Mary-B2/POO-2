@@ -1,4 +1,3 @@
-
 def mostrar_menu():
     print("\n=== MENÚ DE USUARIO ===")
     print("1. Ingrese nombre")
@@ -6,10 +5,8 @@ def mostrar_menu():
     print("3. Salir")
     return input("Elija una opción: ").strip()
 
-
 def saludar(nombre):
     print(f"Bienvenido/a, {nombre}")
-
 
 def pregunta_1():
     print("\n--- Pregunta 1 ---")
@@ -31,7 +28,6 @@ def pregunta_2():
     print()
     print("Respuesta correcta: [5, 2, 3]")
  
- 
 def pregunta_3():
     print("\n--- Pregunta 3 ---")
     print("¿Qué imprime el siguiente código?")
@@ -40,7 +36,6 @@ def pregunta_3():
     print("print(ciudad[-1].upper())")
     print()
     print("Respuesta correcta: Y")
- 
  
 def pregunta_4():
     print("\n--- Pregunta 4 ---")
@@ -52,7 +47,6 @@ def pregunta_4():
     print()
     print("Respuesta correcta: Se produce un TypeError")
  
- 
 def pregunta_5():
     print("\n--- Pregunta 5 ---")
     print("¿Qué imprime el siguiente código?")
@@ -61,8 +55,7 @@ def pregunta_5():
     print("print(texto[4:7])")
     print()
     print("Respuesta correcta: Azu")
- 
- 
+  
 def pregunta_6():
     print("\n--- Pregunta 6 ---")
     print("¿Cuántas veces se imprime «*» en el siguiente código?")
@@ -72,8 +65,7 @@ def pregunta_6():
     print('        print("*", end="")')
     print()
     print("Respuesta correcta: 6")
- 
- 
+  
 def pregunta_7():
     print("\n--- Pregunta 7 ---")
     print("¿Qué imprime el siguiente código?")
@@ -82,7 +74,6 @@ def pregunta_7():
     print('    print(i, end=" ")')
     print()
     print("Respuesta correcta: 1 4 7")
- 
  
 def pregunta_8():
     print("\n--- Pregunta 8 ---")
@@ -96,7 +87,6 @@ def pregunta_8():
     print('    print("No encontrado")')
     print()
     print("Respuesta correcta: No encontrado")
- 
  
 def pregunta_9():
     print("\n--- Pregunta 9 ---")
@@ -193,6 +183,4 @@ def main():
             break
         else:
             print("Opción no válida.")
-
-
 main()
