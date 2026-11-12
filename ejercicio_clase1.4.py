@@ -11,13 +11,6 @@ def saludar(nombre):
     print(f"Bienvenido/a, {nombre}")
 
 
-def mostrar_pregunta(numero, enunciado, codigo, respuesta):
-    print(f"\n--- Pregunta {numero} ---")
-    print(enunciado)
-    if codigo:
-        print("\n" + codigo + "\n")
-    print(f"Respuesta correcta: {respuesta}")
-
 def pregunta_1():
     print("\n--- Pregunta 1 ---")
     print("¿Qué imprime el siguiente código?")
