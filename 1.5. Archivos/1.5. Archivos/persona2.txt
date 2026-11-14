@@ -1,0 +1,35 @@
+persona 1
+Cedula: 0107009508
+Nombre: Maria Bravo
+Edad: 20
+Correo: maria.98@gmail.com
+Celular: 0997544698
+
+persona 2
+Cedula: 0107009508
+Nombre: Luna Gomez
+Edad: 28
+Correo: luna.r37@gmail.com
+Celular: 0997544698
+
+persona 3
+Cedula: 0107009508
+Nombre: Carol Bermeo
+Edad: 25
+Correo: carol832@gmail.com
+Celular: 0997544698
+
+persona 4
+Cedula: 0107009508
+Nombre: Sofia Ruiz
+Edad: 21
+Correo: sofia834@gmail.com
+Celular: 0997544698
+
+persona 5
+Cedula: 0107009508
+Nombre: Lucia Perez
+Edad: 22
+Correo: lucia953@gmail.com
+Celular: 0997544698
+

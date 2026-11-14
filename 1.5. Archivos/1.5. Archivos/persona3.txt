@@ -1,0 +1,6 @@
+persona 1 0107009508   Maria Bravo    20    maria.98@gmail.com    0997544698  
+persona 2 0107009508   Luna Gomez     28    luna.r37@gmail.com    0997544698  
+persona 3 0107009508   Carol Bermeo   25    carol832@gmail.com    0997544698  
+persona 4 0107009508   Sofia Ruiz     21    sofia834@gmail.com    0997544698  
+persona 5 0107009508   Lucia Perez    22    lucia953@gmail.com    0997544698  
+persona 6 0107478608   Andrea Perez   20    andy148@gmail.com     0902165598  
