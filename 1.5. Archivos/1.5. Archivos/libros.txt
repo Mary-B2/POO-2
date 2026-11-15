@@ -1,0 +1,6 @@
+1,Cien años de soledad,Gabriel Garcia Marquez,Disponible
+2,Don Quijote de la mancha,Miguel de Cervantes,Disponible
+3,Orgullo y Prejuicio,Jane Austen,Disponible
+4,El Señor de los Anillos,J.R.R. Tolkien,Disponible
+5,La Divina Comedia,Dante Alighieri,Disponible
+6,java,hugo,Disponible
