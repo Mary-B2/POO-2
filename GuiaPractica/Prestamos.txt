@@ -1,0 +1,7 @@
+1,8,Pablo Alvarado,2026-11-18,Devuelto
+2,1,pablo,2026-11-18,Activo
+3,2,steven,2026-11-18,Devuelto
+4,3,dianita,2026-11-18,Activo
+5,4,pablo,2026-11-18,Devuelto
+6,5,maria,2026-11-18,Activo
+7,6,daniela,2026-11-18,Activo
