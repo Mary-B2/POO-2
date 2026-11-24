@@ -16,7 +16,7 @@ class Obra:
                 self.butacas -= cantidad
                 return True
     def __str__(self):
-            return f"{self.codigo:<10}{self.titulo:<30} ${self.precio:<10.2f}{self.butacas}"
+            return f"Codigo: {self.codigo:<10} Titulo: {self.titulo:<30} Precio: {self.precio:<10.2f} Butacas: {self.butacas}"
 
 class ListaObra:
     def __init__(self):
