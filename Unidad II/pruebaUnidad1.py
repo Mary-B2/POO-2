@@ -28,13 +28,9 @@ def registrar_obra():
     titulo = input("Ingrese el titulo de la obra: ")
     precio = float(input("Ingrese el precio: "))
     butacas = int(input("Ingrese la cantidad de butacas: "))
-
     codigo = len(obras) + 1
-
     nueva_obra = Obra(codigo, titulo, precio, butacas)
-
     obras.append(nueva_obra)
-
     print(f"Registrado con el codigo {codigo}.")
 
 def mostrar_obras():
@@ -64,19 +60,14 @@ while True:
     print("4. Salir")
 
     opcion = input("Seleccione una opcion: ")
-
     if opcion == "1":
         registrar_obra()
-
     elif opcion == "2":
         mostrar_obras()
-
     elif opcion == "3":
         vender_entradas()
-
     elif opcion == "4":
         print("Gracias por utilizar el sistema.")
         break
-
     else:
         print("Opcion no valida")
