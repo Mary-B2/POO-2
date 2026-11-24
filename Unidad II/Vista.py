@@ -9,10 +9,10 @@ class VistaObra:
         return opcion
     
     def solicitar_datos(self):
-        obra=input("Nombre de la obra: ")
+        titulo=input("Nombre de la obra: ")
         precio = float(input("Precio de la obra: "))
         butacas = int(input("Cantidad de butacas: "))
-        return obra, precio, butacas
+        return titulo, precio, butacas
     
     def mostrar_obras(self, obras):
         print("\n============Lista de Obras=================================")
@@ -28,3 +28,5 @@ class VistaObra:
             print("Operación realizada correctamente.")
         else:
             print("No se pudo realizar la operación.")
+    def error(self, texto):
+        print(f"  Error: {texto}")

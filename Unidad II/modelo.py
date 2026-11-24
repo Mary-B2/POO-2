@@ -18,7 +18,6 @@ class Obra:
     def __str__(self):
             return f"{self.codigo:<10}{self.titulo:<30} ${self.precio:<10.2f}{self.butacas}"
 
-
 class ListaObra:
     def __init__(self):
         self.listaObra=[]
