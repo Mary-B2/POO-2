@@ -54,12 +54,3 @@ def estudiantes(**lista_estudiantes):
     print("La suma total es: ", suma_total)
 
 estudiantes(Veronica=20, Juan=25, Maria=30, daniela=20, Pablo=21, Domenica=20, Karen=20)
-
-***
-
-Menu de usuario
-1. Ingrese nombre: Mensaje de bienvenida
-2. Menu de preguntas: le vam a presentar las 11 preguntas Pregunta 1: Listas Pregunta 2: Diccionario
-3. Salir
-
-***
