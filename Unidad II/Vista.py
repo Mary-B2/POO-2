@@ -23,10 +23,5 @@ class VistaObra:
     def mostrar_mensaje(self, mensaje):
         print(mensaje)
         
-    def mostrar_resultado(self, resultado):
-        if resultado:
-            print("Operación realizada correctamente.")
-        else:
-            print("No se pudo realizar la operación.")
     def error(self, texto):
         print(f"  Error: {texto}")
