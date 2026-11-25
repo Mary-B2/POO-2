@@ -31,8 +31,9 @@ class ListaObra:
         for o in datos:
             self.listaObra.append(o)
 
-    def registrar_obra(self,codigo,titulo,precio,butacas):
-        self.listaObra.append(Obra(codigo,titulo,precio,butacas))
+    def registrar_obra(self,titulo,precio,butacas):
+        codigo =len(self.listaObra)+1
+        self.listaObra.append(Obra(codigo, titulo,precio,butacas))
         return print("Obra registrada correctamente")
 
     def vender_obra(self,codigo, cantidad):

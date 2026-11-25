@@ -28,5 +28,7 @@ class VistaObra:
 
     def mostrar_mensaje(self, mensaje):
         print(mensaje)
-        
+
+    def error(self, mensaje):
+        print(f"Error: {mensaje}")
     
