@@ -30,3 +30,6 @@ class ControladorObra:
                         self.vista.mostrar_mensaje("No hay butacas disponibles")
                 except ValueError:
                     self.vista.error("Datos ingresados incorrectos")
+
+            elif opcion == "4":
+                self.vista.mostrar_mensaje("Gracias por utilizar el sistema")
