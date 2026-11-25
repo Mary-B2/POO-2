@@ -24,11 +24,11 @@ class ListaObra:
         self.cargar_datos()
 
     def cargar_datos(self):
-        lista=[
+        datos=[
             Obra(1, "Hamlet", 10.00, 120),
             Obra(2, "La casa de Bernarda", 8.00, 90)
         ]
-        for o in lista:
+        for o in datos:
             self.listaObra.append(o)
 
     def registrar_obra(self,codigo,titulo,precio,butacas):

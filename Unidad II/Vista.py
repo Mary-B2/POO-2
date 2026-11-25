@@ -13,15 +13,20 @@ class VistaObra:
         precio = float(input("Precio de la obra: "))
         butacas = int(input("Cantidad de butacas: "))
         return titulo, precio, butacas
+
+    def solicitar_venta(self):
+        codigo = int(input("Código de la obra: ").strip())
+        cantidad = int(input("Cantidad de butacas: ").strip())
+        return codigo, cantidad
     
     def mostrar_obras(self, obras):
-        print("\n============Lista de Obras=================================")
-        print("--Codigo----Titulo-------------------------Precio-----Butacas--")
-        for obra in obras:
-            print(obra)
+        if not obras:
+            print("No hay obras registradas")
+        else:
+            for obra in obras:
+                print(obra)
 
     def mostrar_mensaje(self, mensaje):
         print(mensaje)
         
-    def error(self, texto):
-        print(f"  Error: {texto}")
+    
